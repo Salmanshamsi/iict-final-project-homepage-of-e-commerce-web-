@@ -1,0 +1,373 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+.header
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: #e3e6f3;
+    box-shadow: 0 5px 15px rgb(0, 0, 0.06);
+    padding: 20px 80px;
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+.header img
+{
+    height: 55px;
+    width: 138px;
+}
+.navbar
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar li 
+{
+    list-style: none;
+    padding: 18px 20px;
+    position: relative;
+}
+.navbar li a
+{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #8c9898;
+    transition: 0.3s;
+}
+.navbar li a:hover
+{
+    color: #8c9898;
+}
+.navbar li a.active
+{
+    color: #8c9898;
+}
+.navbar li a.active::after,
+.navbar li a:hover::after
+{
+    background-color: rgb(128, 0, 255);
+    height:2px ;
+    width: 30%;
+    content: "";
+    position:absolute ;
+    bottom: 9px ;
+    left: 20px;
+}
+
+/* ... */
+
+.banner
+{
+    background-image: url(Build-and-Deploy-Ecommerce-Website-main/img/banner/b10.jpg);
+    height: 90vh;
+    width: auto;
+    background-size: cover;
+    background-position: top 25% right 0px;
+    padding: 0px 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    font-size: 33px;
+    font-weight: 300;
+}
+.banner h4
+{
+    padding: 15px;
+}
+.banner h1
+{
+    color: rgb(11, 73, 53);
+}
+.banner button
+{
+    background-image: url(Build-and-Deploy-Ecommerce-Website-main/img/button.png);
+    background-color: transparent;
+    background-repeat: no-repeat;
+    color: #088178;
+    padding: 14px 88px 14px 65px;
+    border: 0px solid;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 15px;
+}
+/* ... */
+
+.feature
+{
+    display: flex;
+    align-items: center;
+    padding: 53px 150px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.fe-box
+{
+    width: 150px;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 20px 20px 34px rgb(0, 0, 0,0.03);
+    border: 1px solid #cce7d0;
+    border-radius: 4px;
+    margin: 15px 0;
+
+}
+.fe-box:hover
+{
+    box-shadow: 10px 10px 54px rgba(21, 21, 22, 0.274);
+}
+.fe-box img
+{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.fe-box h6
+{
+    display: inline-block;
+    height: 10px;
+    padding: 9px 8px 6px 8px;
+    line-height: 1px;
+    border-radius: 4px;
+    color: #088178;
+    background-color: #fddde4;
+    font-size: 15px;
+    font-weight: 200;
+}
+/* ... */
+
+.prod-cont
+{
+    text-align: center;
+}
+.row-1
+{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 38px;
+}
+.row-2
+{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 38px;
+}
+.prod
+{
+    width: 18%;
+    min-width: 250px;
+    padding: 10px 10px;
+    border: 1px solid #cce7d0;
+    cursor: pointer;
+    box-shadow: 20px 20px 34px rgb(0, 0, 0,0.03);
+    margin:15px 0 ;    
+    border-radius: 20px;   
+    margin-left: 60px;      
+}
+.prod:hover
+{
+    box-shadow: 10px 10px 54px rgba(21, 21, 22, 0.274);   
+}
+.prod img
+{
+    width: 100%;
+    border-radius: 20px;
+}
+.prod .name
+{
+    text-align: left;
+    color: #8c9898;
+    font-size: 20px;
+    font-weight: 400;
+}
+.prod h5,h4,.star
+{
+    text-align: left;
+    padding-top: 5px ;
+    font-size: 16px;
+    font-weight: 200;
+    
+}
+.star i
+{
+    font-size: 16px;
+    color: rgb(255, 236, 96);
+}
+/* .... */
+.foot-banner
+{
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(Build-and-Deploy-Ecommerce-Website-main/img/banner/b2.jpg);
+    height: 40vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.foot-banner h4
+{
+    color: #e3e6f3;
+    font-size: 26px;
+}
+.foot-banner h2
+{
+    color:  #e3e6f3;;
+    font-size: 46px;
+    margin: 20px 0;
+}
+.foot-banner h2 span
+{
+    color: #d31a1ac4;
+    font-size: 46px;
+}
+.foot-banner button
+{
+    font-size: 15px;
+    height: 50px;
+    width: 200px;
+    color: black;
+    background-color: #e3e6f3;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    transition: 0.5s;
+}
+.foot-banner button:hover
+{
+    font-size: 15px;
+    height: 50px;
+    width: 200px;
+    color:  #e3e6f3;
+    background-color: rgba(0, 0, 0, 0.656);
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+}
+.news-later
+{
+    height: 20vh;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+   background-image: url(Build-and-Deploy-Ecommerce-Website-main/img/banner/b14.png);
+   background-color: #0f4b47;
+   background-repeat: no-repeat;
+   background-position: 20% 30%;
+   padding: 20px 30px;
+   margin: 40px 0;
+}
+.news-later h4
+{
+    color: #e3e6f3;
+    font-size: 40px;
+    font-weight: 600;
+}
+.news-later p
+{
+    color: #e3e6f3;
+    font-size: 40px;
+    font-weight: 600;
+    font-style: italic;
+}
+.news-later p span
+{
+    color: #ffff00e7;
+    font-size: 40px;
+    font-weight: 600;
+    font-style: normal;
+}
+.form input
+{
+    height: 80px ;
+    width: 300px;
+    border: none;
+    border-radius: 10px 0px 0px 10px;
+    padding-left: 20px;
+    font-size: 18px;
+    font-weight: 300;
+}
+.form button
+{
+    height: 80px ;
+    width: 100px;
+    margin-left: -5.5px;
+    border: none;
+    border-radius: 0px 10px 10px 0px;
+    background-color: #1af471c7;
+    font-size: 18px;
+    font-weight: 600;
+    color: #e3e6f3;
+}
+/* .... */
+footer
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+.col
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+footer .logo
+{
+    margin-bottom: 20px;
+}
+footer h4
+{
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom: 40px;
+}
+footer a
+{
+    font-size: 23px;
+    font-weight: 300;
+    margin: 0 0 20px 0;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 10px;
+}
+footer p
+{
+    font-size: 20px;
+    font-weight: 200;
+    margin: 0 0 20px 0;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 10px;
+}
+footer.Follow
+{
+    margin-top: 0px ;
+}
+footer.Follow i
+{
+    color: #0f4b47;
+    padding-right: 4px;
+    cursor: pointer;
+}
+.row img
+{
+    border: 1px solid #088178;
+    border-radius: 6px;
+}
+.copyR p
+{
+    margin: 72px 793px -110px -609px;
+    color: #8c9898;
+}
